@@ -13,7 +13,7 @@
 }
 .photo{
     margin-top: 30px;
-    background: url(/Users/muhammed/frontend/wefo/src/Assets/test.jpeg);
+    background: url(../../Assets/test.jpeg);
     background-size: cover;
     width: 80px;
     height: 80px;
