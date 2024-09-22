@@ -1,0 +1,67 @@
+.hero {
+    color: white;
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+ 
+  
+  .banner{
+    background-image: url(/Users/muhammed/frontend/wefo/src/Assets/banner.png);
+  }
+  .headline{
+    padding-bottom: 28vh;
+    font-size: 100px;
+    font-family: FK Grotesk Neue Trial;
+    font-weight:normal;
+  
+  }
+  .desc{
+    width: 30vw;
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    text-align: justify;
+    
+  }
+  .arrow-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.892); /* Transparent border */
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .arrow-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .arrow {
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid white; /* Arrow right side */
+    border-top: 2px solid white;   /* Arrow top side */
+  }

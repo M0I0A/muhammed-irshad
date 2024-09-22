@@ -1,0 +1,114 @@
+.leader{
+    padding: 80px;
+    color: white;
+}
+.leader-head{
+    display: flex;
+}
+.content-box{
+    border:0;
+    height: 25vh;
+    width: 45vw;
+    display: flex;
+    cursor: pointer;
+
+}
+.content-box-left{
+    background: rgb(38, 38, 38);
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    width: 50%;
+
+}
+
+.content-box-left.active{
+    background: #3629ea;
+
+}
+.content-box-right{
+    background: rgb(72, 72, 72);
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    width: 50%;
+}
+
+.content-box-right.active{
+    background: #4034EB;
+}
+.name{
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.title{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.social-icons {
+    padding: 10px;
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.social-icon {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.892);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.row1{
+    padding-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+.content-non-left{
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.892);
+    border-left-color: transparent;
+    border-top-right-radius: 80px;   
+    border-bottom-right-radius: 80px; 
+}
+.content-non-left.first{
+    width: 25vw;
+}
+.content-non-right{
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.892);
+    border-right-color: transparent;
+    border-top-left-radius: 80px;   
+    border-bottom-left-radius: 80px; 
+}
+.content-non-right.first{
+    width: 25vw;
+}
+.row2{
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+.content-non-left.second{
+    width: 35vw;
+}
+.content-non-right.second{
+    width: 15vw;
+}
+.row3{
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+.content-non-left.third{
+    width: 15vw;
+}
+.content-non-right.third{
+    width: 35vw;
+}

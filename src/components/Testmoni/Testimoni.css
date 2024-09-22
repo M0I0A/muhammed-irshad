@@ -1,0 +1,56 @@
+
+.testimoni{
+    color: white;
+    padding: 80px;
+    background: linear-gradient(to top,#4034EB,#1c1d29, #131315, #000000);
+}
+.service-desc.testimoni{
+    text-align:start;
+}
+.testimoni-upper{
+    display: flex;
+    gap: 8vw;
+}
+.photo{
+    margin-top: 30px;
+    background: url(/Users/muhammed/frontend/wefo/src/Assets/test.jpeg);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.arrow-right{
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    border-right: 2px solid white; /* Arrow right side */
+    border-top: 2px solid white;   /* Arrow top side */
+    transform: rotate(45deg);      /* Rotates to form arrow shape */
+  }
+.round{
+    margin-top: 30px;
+    background: transparent;
+    padding: 25px 25px;
+    width: 25px;
+    height: 25px;
+    align-items: center ;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.892);
+    cursor: pointer;
+    align-content: center;
+}  
+.round:hover{
+    background: rgb(35, 35, 35);
+}
+.next{
+    display: flex;
+    gap: 10px;
+}
+.arrow-left{
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    border-left: 2px solid white; /* Arrow right side */
+    border-bottom: 2px solid white;   /* Arrow top side */
+    transform: rotate(45deg);      /* Rotates to form arrow shape */
+  }

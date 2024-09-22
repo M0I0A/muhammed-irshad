@@ -1,0 +1,76 @@
+.card{
+    margin-top: 20px;
+    width:40vw;
+    height: 50vh;
+    background: rgb(29, 29, 29);
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+}
+.works{
+    
+    margin-top: 50px;
+    padding: 80px;
+    display: flex;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.card-button {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 5px 10px;
+    font-size: 8px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.892);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .card-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+  .card-buttons{
+    margin-left: 20px;
+    display: flex;
+  }
+  .card-title{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgb(250, 250, 250);
+  }
+  .right-works{
+    margin-top: 20px;
+    margin-left: 5vw;
+  }
+  .head{
+    padding-top: 20px;
+    font-size: 50px;
+  }
+  .view-button{
+    margin-left: 13vw;
+    margin-top: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.892);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease, border-color 0.3s ease;
+
+  }
+  .view-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.6);
+  }
