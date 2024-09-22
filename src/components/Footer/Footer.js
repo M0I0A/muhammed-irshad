@@ -10,7 +10,7 @@ function Footer() {
             <div class="social-icons">
                 <div className="social-icon">𝕏</div>
                 <div className="social-icon">Ig</div>
-                <div className="social-icon">Dr</div>
+                <div className="social-icon">ln</div>
                 <div className="social-icon">Be</div>
             </div>
             <div className="contact-info">📞 0972 663 633</div>
